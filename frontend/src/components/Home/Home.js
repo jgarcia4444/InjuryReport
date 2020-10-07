@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
+import Roster from '../Roster/Roster';
 
 class Home extends Component {
 
 
     render() {
         return (
-            <h1>More to come...</h1>
-        )
+            <div className="container">
+                <div className="row">
+                    <Roster />
+                </div>
+            </div>
+        );
     }
 }
 

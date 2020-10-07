@@ -1,0 +1,15 @@
+.roster-slot-card-row {
+    text-align: left;
+    background-color: #023E8A;
+    color: #ADE8F4;
+    margin: 5% auto;
+    
+}
+
+.roster-slot-name {
+    margin: 2% auto;
+}
+
+.roster-slot-info {
+    margin: 2% auto;
+}
