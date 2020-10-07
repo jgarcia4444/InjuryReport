@@ -1,0 +1,12 @@
+body {
+  background-color: #CAF0F8;
+  color: #03045E;
+}
+
+.App {
+  margin: 3% auto;
+  padding: 2%;
+  background-color: #0077B6;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 10px #ADE8F4, 0 0 8px 8px #48CAE4;
+}
