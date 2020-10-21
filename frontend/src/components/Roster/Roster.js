@@ -10,7 +10,7 @@ class Roster extends Component {
 
         return rosterData.map((item, i) => {
             return (
-                <div className="row">
+                <div key={i} className="row">
                     <div className="col-12">
                         <RosterSlotCard name={item} i={i} />    
                     </div>
