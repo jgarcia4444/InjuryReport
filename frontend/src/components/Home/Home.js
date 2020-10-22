@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Roster from '../Roster/Roster';
+import FormContainer from '../Form/FormContainer'
 import './Home.css'
 
 class Home extends Component {
@@ -14,7 +15,16 @@ class Home extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    <Roster />
+                    <div className="container main-container">
+                        <div className="row">
+                            <div className="col-4">
+                                <Roster />
+                            </div>
+                            <div className="col-8">
+                                <FormContainer />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

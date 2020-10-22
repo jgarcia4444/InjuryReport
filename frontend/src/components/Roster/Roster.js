@@ -22,7 +22,7 @@ class Roster extends Component {
 
     render() {
         return (
-            <div className="col-4 roster-container">
+            <div className="container roster-container">
                 {this.renderRosterSlots()}
             </div>
         )
